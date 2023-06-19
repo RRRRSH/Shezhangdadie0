@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/canvas/canvas",
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/start/start",
+    "pages/wifi_station/huoqu/huoqu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "oWong",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#eee",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/wode.png"
+      },{
+      "pagePath": "pages/canvas/canvas",
+      "text": "去抽奖",
+      "iconPath": "image/icon.png",
+      "selectedIconPath": "image/icon-HL.png"  
+    }, {
+      "pagePath": "pages/list/list",
+      "text": "中奖记录",
+      "iconPath": "image/icon.png",
+      "selectedIconPath": "image/icon-HL.png"
+    }, {
+      "pagePath": "pages/start/start",
+      "text": "天气",
+      "iconPath": "image/地图.png",
+      "selectedIconPath": "image/ditu.png"
+    }]
+  }
+}
