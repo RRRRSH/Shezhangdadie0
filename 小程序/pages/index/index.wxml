@@ -1,0 +1,9 @@
+
+<view class="main">
+  <image class="background" src="/image/bg.jpeg" mode="aspectFill"></image>
+  <view class="place" style="position: relative; left: 0rpx; top: 0rpx">
+  <view style="width: 373rpx; height: 75rpx; display: block; box-sizing: border-box; position: relative; left: 189rpx; font-family: '隶书'; font-size: 30px; top: 375rpx; color: rgb(20, 21, 22)">神说要有光</view>
+<switch bindchange="switchChange"  style="width: 127rpx; height: 75rpx; display: inline-block; box-sizing: border-box; position: relative; left: 275rpx; top: 420rpx">
+</switch>
+  </view>
+</view>
