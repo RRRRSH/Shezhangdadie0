@@ -1,0 +1,7 @@
+<!--start.wxml-->
+<view class="main">
+  <image class="background" src="/image/tianqi.webp" mode="aspectFill"></image>
+  <view class="place">
+  <button class="btn1" bindtap="navigate">点我！！！</button>
+  </view>
+</view>
