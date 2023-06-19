@@ -1,0 +1,37 @@
+<view class="wrapper">
+
+<view class="header">
+  <text class="header-title"> 大转盘抽奖 </text>
+  <text class="header-subtitle">  精选惩罚抽奖，反馈赖床不起的你 </text> 
+</view>
+
+<view class="main">
+  <view class="canvas-container">
+    <view  animation="{{animationData}}" class="canvas-content" >
+      <canvas style="width: 300px; height: 300px;" class="canvas-element" canvas-id="lotteryCanvas"></canvas>
+
+      <view class="canvas-line">
+        <view class="canvas-litem" wx:for="{{awardsList}}" wx:key="unique" style="-webkit-transform: rotate({{item.lineTurn}});transform: rotate({{item.lineTurn}})"></view>
+      </view>
+
+      <view class="canvas-list">
+        <view class="canvas-item" wx:for="{{awardsList}}" wx:key="unique">
+            <view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})">{{item.award}}</view>
+        </view>
+      </view>
+
+      
+    </view>
+
+    <view bindtap="getLottery" class="canvas-btn {{btnDisabled}}">抽奖</view>		
+  </view>
+
+  <view class="main-container">
+    <view class="main-container-btn">
+      <button bindtap="gotoList" type="primary">查看中奖</button>	
+    </view>
+  </view>
+
+</view>
+
+</view>
